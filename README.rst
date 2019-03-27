@@ -1,6 +1,6 @@
-===
+================
 salt-tor-formula
-===
+================
 
 Simple Salt formula to install tor relay on debian.
 
