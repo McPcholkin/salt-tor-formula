@@ -1,0 +1,9 @@
+Debian:
+  pkgs:
+    - tor
+  service: tor
+  config_file: '/etc/tor/torrc'
+  config_torsocks: '/etc/tor/torsocks.conf'
+  https_support_pkg: apt-transport-https
+  
+
