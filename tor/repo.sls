@@ -4,7 +4,7 @@
 {% if osfamily == 'Debian' %}
 {% set codename = salt['grains.get']('lsb_distrib_codename') %}
 
-add_apt_https_support:
+add_apt_https_support_for_tor:
   pkg.installed:
     - name: {{ map.https_support_pkg }}
     - require_in:
@@ -16,7 +16,7 @@ install_tor_repo:
     - file: /etc/apt/sources.list.d/tor.list
     - key_url: {{ map.repo_key_url }}
     - require:
-      - pkg: add_apt_https_support
+      - pkg: add_apt_https_support_for_tor
 
 
 {% endif %}

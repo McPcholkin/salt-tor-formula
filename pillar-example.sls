@@ -17,6 +17,16 @@ tor:
   fingerprint: 'Unnamed 88888888888888888888888888888888888888888888'
   
   # base64
+  ed25519_signing_cert: |
+    wewerwerfwerfwefwefwefwefwefwefwefwefwefwefwwefwefwe2
+    wewerwerfwerfwefwefwefwefwefwefwefwefwefwefwwefwefwe
+  
+  # base64
+  ed25519_signing_secret_key: |
+    ysKFJqwewerwerfwerfwefwefwefwefwefwefwefwefwefwefwwefwefwe
+    wewerwerfwerfwefwefwefwefwefwefwefwefwefwefwwefwefwe
+
+  # base64
   ed25519_master_id_public_key: |
     sOKsdsdsdsdsdsdsdsdsdsdsU5x9SDWcVn
     hl58888888888888888888888888888
